@@ -1,0 +1,221 @@
+---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 2024-09-21 08:30:30
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.iterator()" because "com.roxxane.create_pack_tweaks.CptConfig.redstoneColorMultipliers" is null
+	at net.minecraft.world.level.block.RedStoneWireBlock.cpt$modifyColor(RedStoneWireBlock.java:542) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.wrapOperation$zpm000$animateTickWrapOperation(RedStoneWireBlock.java:563) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.wrapOperation$zpm000$animateTickWrapOperation$mixinextras$bridge$48(RedStoneWireBlock.java) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.m_214162_(RedStoneWireBlock.java:404) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.client.multiplayer.ClientLevel.m_233612_(ClientLevel.java:1124) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:canary.mixins.json:chunk.entity_class_groups.ClientLevelMixin,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:features.render.world.sky.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.ClientLevel.m_104784_(ClientLevel.java:367) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:canary.mixins.json:chunk.entity_class_groups.ClientLevelMixin,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:features.render.world.sky.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1859) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xenon.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1112) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xenon.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xenon.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[client-1.20.1.jar:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:smoothboot.mixins.json:client.MainMixin,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: 
+	Xenon (xenon), Version: 0.3.19+mc1.20.1
+		Mixin class: me.jellysquid.mods.sodium.mixin.features.render.world.ClientLevelMixin
+		Target: net.minecraft.client.multiplayer.ClientLevel
+		at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.multiplayer.ClientLevel.m_233612_(ClientLevel.java:1124)
+
+	Create Pack Tweaks (create_pack_tweaks), Version: 0.0.25
+		Mixin class: com.roxxane.create_pack_tweaks.mixins.RedStoneWireBlockMixin
+		Target: net.minecraft.world.level.block.RedStoneWireBlock
+		at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.RedStoneWireBlock.cpt$modifyColor(RedStoneWireBlock.java:542)
+Stacktrace:
+	at net.minecraft.world.level.block.RedStoneWireBlock.cpt$modifyColor(RedStoneWireBlock.java:542) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.wrapOperation$zpm000$animateTickWrapOperation(RedStoneWireBlock.java:563) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.wrapOperation$zpm000$animateTickWrapOperation$mixinextras$bridge$48(RedStoneWireBlock.java) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.world.level.block.RedStoneWireBlock.m_214162_(RedStoneWireBlock.java:404) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:mixins.create_pack_tweaks.json:RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin,pl:mixin:APP:canary.mixins.json:block.redstone_wire.RedStoneWireBlockMixin,pl:mixin:A}
+	at net.minecraft.client.multiplayer.ClientLevel.m_233612_(ClientLevel.java:1124) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:canary.mixins.json:chunk.entity_class_groups.ClientLevelMixin,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:features.render.world.sky.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.multiplayer.ClientLevel.m_104784_(ClientLevel.java:367) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:canary.mixins.json:chunk.entity_class_groups.ClientLevelMixin,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:features.render.world.sky.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['Sammy_any_all_'/1, l='ClientLevel', x=250.54, y=24.60, z=-46.54]]
+	Chunk stats: 5041, 442
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,12,0), Section: (at 0,12,0 in 0,0,0; chunk contains blocks 0,0,0 to 15,15,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,15,511)
+	Level time: 830949 game time, 6000 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:entityculling.mixins.json:ClientWorldMixin,pl:mixin:APP:canary.mixins.json:chunk.entity_class_groups.ClientLevelMixin,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:features.render.world.sky.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2319) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xenon.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:740) ~[client-1.20.1-20230612.114412-srg.jar%23246!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:konkrete.mixin.json:MixinMinecraft,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xenon.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[client-1.20.1.jar:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:smoothboot.mixins.json:client.MainMixin,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: mod_resources, vanilla, Moonlight Mods Dynamic Assets, KubeJS Resource Pack [assets]
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.10.2-200.fsync.fc40.x86_64
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 308537680 bytes (294 MiB) / 1073741824 bytes (1024 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 3700X 8-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: GA106 [GeForce RTX 3060 Lite Hash Rate]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x2504
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 59352.00
+	Virtual memory used (MB): 16413.61
+	Swap memory total (MB): 43365.54
+	Swap memory used (MB): 568.00
+	JVM Flags: 9 total; -Xmx1024M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Xss1M
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 555.58.02, NVIDIA Corporation
+	Window size: 1278x1412
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: mod_resources, vanilla, Moonlight Mods Dynamic Assets
+	Current Language: en_us
+	CPU: 16x AMD Ryzen 7 3700X 8-Core Processor
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Sammy_any_all_'/1, l='ServerLevel[TEXTURING]', x=250.54, y=24.60, z=-46.54]]
+	Data Packs: vanilla, mod:saturn (incompatible), mod:kiwi (incompatible), mod:rhino (incompatible), mod:geckolib, mod:botarium (incompatible), mod:rei_plugin_compatibilities (incompatible), mod:mixinextras (incompatible), mod:clearsky (incompatible), mod:fpsreducer, mod:biggerstacks (incompatible), mod:melody (incompatible), mod:cloth_config (incompatible), mod:forge, mod:stackrefill, mod:konkrete (incompatible), mod:advjs, mod:moonlight (incompatible), mod:mousetweaks, mod:nochatreports (incompatible), mod:cloudsettings (incompatible), mod:ceramicbucket, mod:smoothboot, mod:roughlyenoughitems (incompatible), mod:kotlinforforge (incompatible), mod:dpanvil, mod:curios (incompatible), mod:flywheel, mod:create, mod:bucketlib, mod:create_pack_tweaks, mod:collective, mod:storagedrawers (incompatible), mod:entityculling, mod:canary, mod:fancymenu (incompatible), mod:starterkit, mod:immediatelyfast (incompatible), mod:kswitch (incompatible), mod:architectury (incompatible), mod:kubejs (incompatible), mod:ftblibrary (incompatible), mod:ftbteams (incompatible), mod:kubejsoffline (incompatible), mod:ftbquests (incompatible), mod:kubejs_create (incompatible), mod:ferritecore (incompatible), mod:cherishedworlds (incompatible), mod:petrolpark (incompatible), mod:petrolsparts (incompatible), mod:raised (incompatible), mod:xenon
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		kotlinforforge@4.11.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		saturn-mc1.20.1-0.1.3.jar                         |Saturn                        |saturn                        |0.1.3               |DONE      |Manifest: NOSIGNATURE
+		Kiwi-1.20.1-Forge-11.8.20.jar                     |Kiwi Library                  |kiwi                          |11.8.20+forge       |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.2-build.18.jar                 |Rhino                         |rhino                         |2001.2.2-build.18   |DONE      |Manifest: NOSIGNATURE
+		xenon-0.3.19+mc1.20.1.jar                         |Xenon                         |xenon                         |0.3.19+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.4.7.jar                   |GeckoLib 4                    |geckolib                      |4.4.7               |DONE      |Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.4.jar                   |Botarium                      |botarium                      |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		REIPluginCompatibilities-forge-12.0.93.jar        |REI Plugin Compatibilities    |rei_plugin_compatibilities    |12.0.93             |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		ClearSky-Universal-1.20.1-1.0.0.jar               |clearsky                      |clearsky                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		FpsReducer2-forge-1.20-2.5.jar                    |FPS Reducer                   |fpsreducer                    |1.20-2.5            |DONE      |Manifest: NOSIGNATURE
+		biggerstacks-1.20.1-1.0.0-all.jar                 |Bigger Stacks                 |biggerstacks                  |1.20.1-1.0.0        |DONE      |Manifest: NOSIGNATURE
+		melody_forge_1.0.3_MC_1.20.1-1.20.4.jar           |Melody                        |melody                        |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.0-universal.jar                 |Forge                         |forge                         |47.3.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		stackrefill-1.20.1-4.5.jar                        |Stack Refill                  |stackrefill                   |4.5                 |DONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.8.0_MC_1.20-1.20.1.jar           |Konkrete                      |konkrete                      |1.8.0               |DONE      |Manifest: NOSIGNATURE
+		AdvJS-2001forge-2.9.4.jar                         |AdvancementJS                 |advjs                         |2001forge-2.9.4     |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		moonlight-1.20-2.12.8-forge.jar                   |Moonlight Library             |moonlight                     |1.20-2.12.8         |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		NoChatReports-FORGE-1.20.1-v2.2.2.jar             |No Chat Reports               |nochatreports                 |1.20.1-v2.2.2       |DONE      |Manifest: NOSIGNATURE
+		CloudSettings-1.20.X-2.0.0.7-forge.jar            |CloudSettings                 |cloudsettings                 |2.0.0.7             |DONE      |Manifest: NOSIGNATURE
+		ceramicbucket-1.20.1-4.1.0.0.jar                  |Ceramic Bucket                |ceramicbucket                 |1.20.1-4.1.0.0      |DONE      |Manifest: NOSIGNATURE
+		smoothboot(reloaded)-mc1.20.1-0.0.4.jar           |Smooth Boot (Reloaded)        |smoothboot                    |0.0.4               |DONE      |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-12.1.725-forge.jar             |Roughly Enough Items (REI)    |roughlyenoughitems            |12.1.725            |DONE      |Manifest: NOSIGNATURE
+		kffmod-4.11.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.11.0              |DONE      |Manifest: NOSIGNATURE
+		dpanvil-1.20.1-5.0.1.jar                          |DataPack Anvil                |dpanvil                       |1.20.1-5.0.1        |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.9.1+1.20.1.jar                     |Curios API                    |curios                        |5.9.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-0.6.10-7.jar                |Flywheel                      |flywheel                      |0.6.10-7            |DONE      |Manifest: NOSIGNATURE
+		create-1.20.1-0.5.1.f.jar                         |Create                        |create                        |0.5.1.f             |DONE      |Manifest: NOSIGNATURE
+		bucketlib-1.20.1-2.3.4.1.jar                      |BucketLib                     |bucketlib                     |1.20.1-2.3.4.1      |DONE      |Manifest: NOSIGNATURE
+		create_pack_tweaks-0.0.25-all.jar                 |Create Pack Tweaks            |create_pack_tweaks            |0.0.25              |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.1-7.80.jar                        |Collective                    |collective                    |7.80                |DONE      |Manifest: NOSIGNATURE
+		storagedrawers-1.20.1-12.0.3.jar                  |Storage Drawers               |storagedrawers                |12.0.3              |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.6.5-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.6.5               |DONE      |Manifest: NOSIGNATURE
+		canary-mc1.20.1-0.3.3.jar                         |Canary                        |canary                        |0.3.3               |DONE      |Manifest: NOSIGNATURE
+		fancymenu_forge_3.2.3_MC_1.20.1.jar               |FancyMenu                     |fancymenu                     |3.2.3               |DONE      |Manifest: NOSIGNATURE
+		starterkit-1.20.1-7.1.jar                         |Starter Kit                   |starterkit                    |7.1                 |DONE      |Manifest: NOSIGNATURE
+		raised-forge-1.20.1-4.0.0.jar                     |Raised                        |raised                        |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		ImmediatelyFast-Forge-1.2.15+1.20.4.jar           |ImmediatelyFast               |immediatelyfast               |1.2.15+1.20.4       |DONE      |Manifest: NOSIGNATURE
+		KSwitch-0.0.2.jar                                 |KSwitch                       |kswitch                       |0.0.2               |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.14.jar                |KubeJS                        |kubejs                        |2001.6.5-build.14   |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-2001.2.3.jar                    |FTB Library                   |ftblibrary                    |2001.2.3            |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-2001.3.0.jar                      |FTB Teams                     |ftbteams                      |2001.3.0            |DONE      |Manifest: NOSIGNATURE
+		kubejsoffline-4.0.2.jar                           |KubeJS Offline (Forge)        |kubejsoffline                 |4.0.2               |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-2001.4.8.jar                     |FTB Quests                    |ftbquests                     |2001.4.8            |DONE      |Manifest: NOSIGNATURE
+		kubejs-create-forge-2001.2.5-build.2.jar          |KubeJS Create                 |kubejs_create                 |2001.2.5-build.2    |DONE      |Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		cherishedworlds-forge-6.1.6+1.20.1.jar            |Cherished Worlds              |cherishedworlds               |6.1.6+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		petrolpark-1.20.1-1.0.2.jar                       |Petrolpark's Library          |petrolpark                    |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		petrolsparts-1.20.1-1.0.2.jar                     |Petrol's Parts                |petrolsparts                  |1.0.2               |DONE      |Manifest: NOSIGNATURE
+	Flywheel Backend: GL33 Instanced Arrays
+	Crash Report UUID: a2967237-66be-47cf-a0f7-314c129a8261
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.0
+	Kiwi Modules: 
+		kiwi:block_components
+		kiwi:block_templates
+		kiwi:contributors
+		kiwi:data
+		kiwi:item_templates

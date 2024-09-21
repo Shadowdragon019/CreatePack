@@ -1,0 +1,15 @@
+{
+	"display": "stone",
+	"settings": {
+		"biome": "plains",
+		"lakes": false,
+		"features": true,
+		"layers": [
+			{
+				"block": "stone",
+				"height": 12
+			}
+		],
+		"structure_overrides": []
+	}
+}

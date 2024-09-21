@@ -1,0 +1,20 @@
+{
+	"type": "lake",
+	"config": {
+		"barrier": {
+			"type": "simple_state_provider",
+			"state": {
+				"Name": "stone"
+			}
+		},
+		"fluid": {
+			"type": "simple_state_provider",
+			"state": {
+				"Name": "water",
+				"Properties": {
+					"level": "0"
+				}
+			}
+		}
+	}
+}

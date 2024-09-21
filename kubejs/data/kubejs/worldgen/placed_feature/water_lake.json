@@ -1,0 +1,19 @@
+{
+	"feature": "kubejs:water_lake",
+	"placement": [
+		{
+			"type": "rarity_filter",
+			"chance": 200
+		},
+		{
+			"type": "in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "biome"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"feature": "kubejs:mushrooms",
+	"placement": [
+		{
+			"type": "in_square"
+		},
+		{
+			"type": "biome"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 10
+		}
+	]
+}

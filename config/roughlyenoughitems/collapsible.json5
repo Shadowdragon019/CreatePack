@@ -1,0 +1,41 @@
+{
+	"disabledGroups": [],
+	"customGroups": [
+		{
+			"id": "custom:1f179088-2a19-4b5a-beae-a30685229757",
+			"name": "Creative Items",
+			"stacks": [
+				"{Count:1b,id:\"create:creative_fluid_tank\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create:creative_crate\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create:creative_blaze_cake\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create:creative_motor\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create:handheld_worldshaper\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:79d33263-fb9c-4269-b209-61cac5611c57",
+			"name": "Intermediates",
+			"stacks": [
+				"{Count:1b,id:\"create_pack_tweaks:mushy_mold\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create_pack_tweaks:mushy_brick\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create_pack_tweaks:mushy_paste\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create_pack_tweaks:small_pile_of_mushy_paste\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:mushy_blob\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:lumber\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:stripped_lumber\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:lubed_lumber\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:lubed_and_stripped_lumber\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:bark\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:plank\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:uncooked_mushy_brick_mold\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:dowl\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:oak_sapling\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:brown_mushroom\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:red_mushroom\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"create:andesite_casing\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:planks\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"kubejs:dowls\",type:\"minecraft:item\"}"
+			]
+		}
+	]
+}

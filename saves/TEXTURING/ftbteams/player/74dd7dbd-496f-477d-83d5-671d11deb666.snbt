@@ -1,0 +1,17 @@
+{
+	id: "74dd7dbd-496f-477d-83d5-671d11deb666"
+	type: "player"
+	player_name: "Sammy_any_all_"
+	ranks: {
+		74dd7dbd-496f-477d-83d5-671d11deb666: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Sammy_any_all_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#D059FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

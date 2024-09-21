@@ -1,0 +1,36 @@
+{
+	"lava_smelting_conversion_chance": 5,
+	"lava_smelting_initial_velocity": {
+		"x": 0.15,
+		"y": 0.5,
+		"z": 0.15
+	},
+	"lava_smelting": {
+		"create_pack_tweaks:mushy_paste": "create_pack_tweaks:mushy_brick",
+		"kubejs:uncooked_mushy_brick_mold": "create_pack_tweaks:mushy_mold"
+	},
+	"drilling_config": {
+		"kubejs:coal": "coal",
+		"kubejs:redstone": "redstone"
+	},
+	"lava_smelting_bucket_config": {
+		"x": 31,
+		"y": 14,
+		"width": 16,
+		"height": 16
+	},
+	"smushing_smushing_config": {
+		"x": 7,
+		"y": -13,
+		"width": 10,
+		"height": 25
+	},
+	"item_initial_merge_delay": 30,
+	"redstone_color_multipliers": [
+		{
+			"multiplier": 0.75,
+			"min": 1,
+			"max": 15
+		}
+	]
+}

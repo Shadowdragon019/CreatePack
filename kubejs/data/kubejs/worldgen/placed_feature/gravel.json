@@ -1,0 +1,21 @@
+{
+	"feature": "kubejs:gravel",
+	"placement": [
+		{
+			"type": "rarity_filter",
+			"chance": 8
+		},
+		{
+			"type": "in_square"
+		},
+		{
+			"type": "height_range",
+			"height": {
+				"absolute": 12
+			}
+		},
+		{
+			"type": "biome"
+		}
+	]
+}

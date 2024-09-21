@@ -1,0 +1,41 @@
+{
+	"type": "random_patch",
+	"config": {
+		"tries": 96,
+		"xz_spread": 7,
+		"y_spread": 2,
+		"feature": {
+			"feature": {
+				"type": "simple_block",
+				"config": {
+					"to_place": {
+						"type": "weighted_state_provider",
+						"entries": [
+							{
+								"weight": 1,
+								"data": {
+									"Name": "red_mushroom"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "brown_mushroom"
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "block_predicate_filter",
+					"predicate": {
+						"type": "matching_blocks",
+						"blocks": "air"
+					}
+				}
+			]
+		}
+	}
+}

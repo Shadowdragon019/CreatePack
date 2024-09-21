@@ -1,0 +1,6 @@
+{
+	"parent": "create_pack_tweaks:block/casts/base_empty",
+	"textures": {
+		"mold_texture": "create_pack_tweaks:block/uncooked_mushy_block"
+	}
+}

@@ -1,15 +1,15 @@
-[12:58:31] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[12:58:31] [INIT] Loaded plugins:
-[12:58:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[12:58:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[12:58:31] [INIT] - org.mesdag.advjs.AdvJSPlugin
-[12:58:31] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[12:58:31] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[12:58:32] [INFO] Loaded script startup_scripts:custom_items.js in 0.069 s
-[12:58:32] [INFO] Loaded script startup_scripts:custom_blocks.js in 0.002 s
-[12:58:32] [INFO] Loaded script startup_scripts:custom_fluids.js in 0.01 s
-[12:58:32] [INFO] Loaded script startup_scripts:interchangable_items.js in 0.003 s
-[12:58:32] [INFO] Loaded script startup_scripts:disabled_items.js in 0.001 s
-[12:58:32] [INFO] Loaded script startup_scripts:block_modification.js in 0.005 s
-[12:58:32] [INFO] Loaded script startup_scripts:item_modification.js in 0.0 s
-[12:58:32] [INFO] Loaded 7/7 KubeJS startup scripts in 0.46 s with 0 errors and 0 warnings
+[05:55:23] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[05:55:23] [INIT] Loaded plugins:
+[05:55:23] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[05:55:23] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[05:55:23] [INIT] - org.mesdag.advjs.AdvJSPlugin
+[05:55:23] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[05:55:23] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[05:55:23] [INFO] Loaded script startup_scripts:custom_items.js in 0.002 s
+[05:55:23] [INFO] Loaded script startup_scripts:custom_blocks.js in 0.001 s
+[05:55:23] [INFO] Loaded script startup_scripts:custom_fluids.js in 0.001 s
+[05:55:23] [INFO] Loaded script startup_scripts:interchangable_items.js in 0.002 s
+[05:55:23] [INFO] Loaded script startup_scripts:disabled_items.js in 0.0 s
+[05:55:23] [INFO] Loaded script startup_scripts:block_modification.js in 0.002 s
+[05:55:23] [INFO] Loaded script startup_scripts:item_modification.js in 0.0 s
+[05:55:23] [INFO] Loaded 7/7 KubeJS startup scripts in 0.019 s with 0 errors and 0 warnings

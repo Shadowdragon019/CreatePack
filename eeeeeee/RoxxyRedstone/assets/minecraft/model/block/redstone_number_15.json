@@ -1,0 +1,7 @@
+{
+	"parent": "block/redstone_double_number_base",
+	"textures": {
+		"left": "block/redstone_number_1",
+		"right": "block/redstone_number_5"
+	}
+}

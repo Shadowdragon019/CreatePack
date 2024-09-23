@@ -1,38 +1,40 @@
-[12:58:42] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[12:58:42] [INIT] Loaded plugins:
-[12:58:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[12:58:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[12:58:42] [INIT] - org.mesdag.advjs.AdvJSPlugin
-[12:58:42] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
-[12:58:42] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[12:58:42] [INFO] Loaded script server_scripts:recipes/minecraft/cutting.js in 0.004 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/pressing.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/compacting.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/deploying.js in 0.001 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/mixing.js in 0.001 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/sawing.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/item_application.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/filling.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/create/sequence.js in 0.001 s
-[12:58:42] [INFO] Loaded script server_scripts:recipes/recipes.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:tags.js in 0.001 s
-[12:58:42] [INFO] Loaded script server_scripts:server_load.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:advancements.js in 0.001 s
-[12:58:42] [INFO] Loaded script server_scripts:entity_hurt.js in 0.0 s
-[12:58:42] [INFO] Loaded script server_scripts:player_tick.js in 0.001 s
-[12:58:42] [INFO] Loaded 15/15 KubeJS server scripts in 0.029 s with 0 errors and 0 warnings
-[12:58:42] [INFO] Scripts loaded
-[12:58:42] [INFO] Initializing recipe event...
-[12:58:43] [INFO] [minecraft:worldgen/flat_level_generator_preset] Found 1 tags, added 1 objects, removed 9 objects
-[12:58:43] [INFO] [minecraft:worldgen/biome] Found 104 tags, added 0 objects, removed 2 objects
-[12:58:43] [INFO] [minecraft:item] Found 342 tags, added 4 objects, removed 0 objects
-[12:58:43] [INFO] [minecraft:block] Found 305 tags, added 2 objects, removed 0 objects
-[12:58:43] [INFO] Processing recipes...
-[12:58:43] [INFO] Found 2399 recipes in 67.75 ms
-[12:58:43] [INFO] Posted recipe events in 113.5 ms
-[12:58:43] [INFO] Added 1550 recipes, removed 2399 recipes, modified 0 recipes, with 0 failed recipes in 22.93 ms
-[12:58:43] [INFO] AdvJS: Removed 1073 advancements
-[12:58:43] [INFO] AdvJS: Modified 0 advancements
-[12:58:43] [INFO] AdvJS: Added 0 advancements
-[12:58:43] [INFO] AdvJS: Completely loaded!
-[12:58:44] [INFO] Server resource reload complete!
+[05:59:20] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[05:59:20] [INIT] Loaded plugins:
+[05:59:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[05:59:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[05:59:20] [INIT] - org.mesdag.advjs.AdvJSPlugin
+[05:59:20] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[05:59:20] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[05:59:20] [INFO] Loaded script server_scripts:recipes/minecraft/cutting.js in 0.001 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/pressing.js in 0.001 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/compacting.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/deploying.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/mixing.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/sawing.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/item_application.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/filling.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/create/sequence.js in 0.001 s
+[05:59:20] [INFO] Loaded script server_scripts:recipes/recipes.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:tags.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:server_load.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:advancements.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:entity_hurt.js in 0.0 s
+[05:59:20] [INFO] Loaded script server_scripts:player_tick.js in 0.0 s
+[05:59:20] [INFO] Loaded 15/15 KubeJS server scripts in 0.01 s with 0 errors and 0 warnings
+[05:59:20] [INFO] Scripts loaded
+[05:59:20] [INFO] Initializing recipe event...
+[05:59:20] [INFO] [minecraft:worldgen/flat_level_generator_preset] Found 1 tags, added 1 objects, removed 9 objects
+[05:59:20] [INFO] [minecraft:worldgen/biome] Found 104 tags, added 0 objects, removed 2 objects
+[05:59:20] [INFO] [minecraft:block] Found 305 tags, added 2 objects, removed 0 objects
+[05:59:20] [INFO] [minecraft:item] Found 342 tags, added 4 objects, removed 0 objects
+[05:59:20] [INFO] Processing recipes...
+[05:59:20] [INFO] Found 2394 recipes in 28.85 ms
+[05:59:20] [INFO] Posted recipe events in 58.07 ms
+[05:59:20] [WARN] Error parsing recipe create:kjs/89bxfvpxqawrgqw38qknji0p[create:filling]: {"type":"create:filling","results":[{"item":"minecraft:air","count":0,"nbt":"{Fluid:{Amount:1000,FluidName:\"minecraft:lava\"}}"}],"ingredients":[{"fluid":"minecraft:water","nbt":{},"amount":1000},{"fluid":"minecraft:empty","nbt":{},"amount":0}]}: Can't modify the empty stack.
+[05:59:20] [WARN] Error parsing recipe create:kjs/du0pf3fhuj7fmsfuyfp1wr548[create:filling]: {"type":"create:filling","results":[{"item":"minecraft:air","count":0,"nbt":"{Fluid:{Amount:1000,FluidName:\"minecraft:lava\"}}"}],"ingredients":[{"fluid":"minecraft:lava","nbt":{},"amount":1000},{"fluid":"minecraft:empty","nbt":{},"amount":0}]}: Can't modify the empty stack.
+[05:59:20] [INFO] Added 1550 recipes, removed 2394 recipes, modified 0 recipes, with 2 failed recipes in 17.26 ms
+[05:59:20] [INFO] AdvJS: Removed 1073 advancements
+[05:59:20] [INFO] AdvJS: Modified 0 advancements
+[05:59:20] [INFO] AdvJS: Added 0 advancements
+[05:59:20] [INFO] AdvJS: Completely loaded!
+[05:59:21] [INFO] Server resource reload complete!

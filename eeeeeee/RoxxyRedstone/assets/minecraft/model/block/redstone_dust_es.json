@@ -1,0 +1,6 @@
+{
+	"parent": "block/redstone_dust_base",
+	"textures": {
+		"texture": "block/redstone_dust_es"
+	}
+}

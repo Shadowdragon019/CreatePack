@@ -1,0 +1,6 @@
+{
+	"parent": "block/redstone_number_base",
+	"textures": {
+		"texture": "block/redstone_number_7"
+	}
+}

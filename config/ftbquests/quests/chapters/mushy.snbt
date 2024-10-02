@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mushy"
+	group: ""
+	icon: "create:andesite_casing"
+	id: "5C0F6A2ACBC58D64"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4FDACFDC044E60AD"
+				"087E6F5BE046F43F"
+			]
+			id: "7BFDE2385C09BBFD"
+			subtitle: "A simple 1-1 conversaion with some heating"
+			tasks: [{
+				id: "1C8798672BE6B014"
+				type: "checkmark"
+			}]
+			title: "Mushy: 1"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7BFDE2385C09BBFD"
+				"7FFDFC5B5B68EB6A"
+				"2B3E81C0C2B7CC4D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["More complex recipes will only be crafted if the required items are there when arm decends."]
+			icon: "create_pack_tweaks:mushy_paste"
+			id: "0C855D8D95EAA38B"
+			subtitle: "STOMP STOMP STOMP"
+			tasks: [
+				{
+					id: "4B21FB344387DDB6"
+					type: "checkmark"
+				}
+				{
+					id: "38637E466D5677DE"
+					item: "create_pack_tweaks:mushy_paste"
+					type: "item"
+				}
+			]
+			title: "Mushy Paste"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FDACFDC044E60AD"
+				"087E6F5BE046F43F"
+			]
+			id: "7FFDFC5B5B68EB6A"
+			subtitle: "Expertly combine 2 mushrooms at once for 50% more bang-per-buck"
+			tasks: [{
+				id: "074EFB84CF527F68"
+				type: "checkmark"
+			}]
+			title: "Mushy: 2"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FDACFDC044E60AD"
+				"087E6F5BE046F43F"
+				"0DE80A19C56A88E5"
+			]
+			id: "2B3E81C0C2B7CC4D"
+			subtitle: "\"The power of bark compels you\"? No, the power of production compels me."
+			tasks: [{
+				id: "0867A540271FA29F"
+				type: "checkmark"
+			}]
+			title: "Mushy: 3"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1991AC612043EE64"]
+			icon: "minecraft:coal"
+			id: "4FDACFDC044E60AD"
+			subtitle: "Whirrrr!"
+			tasks: [
+				{
+					id: "1A94ACC70A07779B"
+					type: "checkmark"
+				}
+				{
+					id: "443FCE875BC79CE2"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Coal"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "1991AC612043EE64"
+			tasks: [{
+				id: "5A67579A6B1CF1D7"
+				type: "checkmark"
+			}]
+			title: "Coal: 1"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2CA573ECAC0EA02A"
+				"6EDA3FDEF70D9270"
+			]
+			dependency_requirement: "one_completed"
+			icon: "create_pack_tweaks:mushy_brick"
+			id: "7B5A27A9540EFC00"
+			subtitle: "Bricks!... yeah, cool, haha"
+			tasks: [
+				{
+					id: "3A6AB98CBA8E66A6"
+					type: "checkmark"
+				}
+				{
+					id: "10877A7E457B32D6"
+					item: "create_pack_tweaks:mushy_brick"
+					type: "item"
+				}
+			]
+			title: "Mushy Brick"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C855D8D95EAA38B"]
+			icon: "kubejs:uncooked_mushy_brick_mold"
+			id: "71EDDACB543B0ECF"
+			subtitle: "What do you MEAN \"Doesn't support looping dependencies\"?"
+			tasks: [
+				{
+					id: "44C5B69ECA40F209"
+					type: "checkmark"
+				}
+				{
+					id: "50A73468AF181CDE"
+					item: "kubejs:uncooked_mushy_brick_mold"
+					type: "item"
+				}
+			]
+			title: "Uncooked Mushy Mold"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71EDDACB543B0ECF"]
+			dependency_requirement: "one_completed"
+			icon: "create_pack_tweaks:mushy_mold"
+			id: "16779AC663185878"
+			subtitle: "More lava bouncing! That's a fun mechanic that's not gonna get boring quickly"
+			tasks: [
+				{
+					id: "30261D8DC26CD963"
+					type: "checkmark"
+				}
+				{
+					id: "4EADC9CE67D2256D"
+					item: "create_pack_tweaks:mushy_mold"
+					type: "item"
+				}
+			]
+			title: "Mushy Mold"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C855D8D95EAA38B"]
+			icon: "create_pack_tweaks:small_pile_of_mushy_paste"
+			id: "192C30A0B92BA074"
+			subtitle: "Look momma a triple!"
+			tasks: [
+				{
+					id: "38228502BF74BFB4"
+					type: "checkmark"
+				}
+				{
+					id: "57173FE9E59F1B4A"
+					item: "create_pack_tweaks:small_pile_of_mushy_paste"
+					type: "item"
+				}
+			]
+			title: "Small Pile of Mushy Paste"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C855D8D95EAA38B"]
+			id: "2CA573ECAC0EA02A"
+			subtitle: "Lava bouncing!"
+			tasks: [{
+				id: "37CDECF615B81464"
+				type: "checkmark"
+			}]
+			title: "Mushy Brick: 1"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"16779AC663185878"
+				"192C30A0B92BA074"
+			]
+			id: "6EDA3FDEF70D9270"
+			subtitle: "Difficult \\& profitable"
+			tasks: [{
+				id: "58F961A7BDE23F19"
+				type: "checkmark"
+			}]
+			title: "Mushy Brick: 2"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:red_mushroom_block"
+			id: "087E6F5BE046F43F"
+			subtitle: "Shrooms"
+			tasks: [
+				{
+					id: "49F4E55F7A407558"
+					type: "checkmark"
+				}
+				{
+					id: "2917BC99626ECCD2"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "4D0464370D9A91F7"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			title: "Mushrooms"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:oak_log"
+			id: "5CE8CDFFFC582080"
+			subtitle: "Timbeeeer! - oh - lumbuuuu... okay that just doesn't sound right"
+			tasks: [
+				{
+					id: "114ACD5C8AB79670"
+					type: "checkmark"
+				}
+				{
+					id: "1BFFCFDA8F006D9B"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1D4543152901899B"
+					item: "kubejs:lumber"
+					type: "item"
+				}
+			]
+			title: "Trees"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			icon: "kubejs:bark"
+			id: "0DE80A19C56A88E5"
+			subtitle: "The power of bark compels you!"
+			tasks: [
+				{
+					id: "5B3451885BD7996B"
+					type: "checkmark"
+				}
+				{
+					id: "48B88E5301E64D42"
+					item: "kubejs:bark"
+					type: "item"
+				}
+			]
+			title: "Bark"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CE8CDFFFC582080"]
+			icon: "minecraft:slime_ball"
+			id: "08AF95CEF8DAFCB6"
+			tasks: [
+				{
+					id: "47AEBDF76708ED51"
+					type: "checkmark"
+				}
+				{
+					id: "00554C5DCBE38B96"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			title: "Blob of Tree Oil"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08AF95CEF8DAFCB6"]
+			icon: "kubejs:blob_of_lube"
+			id: "7F732C968E99DEA5"
+			tasks: [
+				{
+					id: "001836CFE149DF8E"
+					type: "checkmark"
+				}
+				{
+					id: "6A1A14EFDFAD8E93"
+					item: "kubejs:blob_of_lube"
+					type: "item"
+				}
+			]
+			title: "Blob of Lube"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			icon: "kubejs:planks"
+			id: "602DC63627DB55B6"
+			tasks: [
+				{
+					id: "4EB67736A4533339"
+					type: "checkmark"
+				}
+				{
+					id: "0A48FC352FF0457F"
+					item: "kubejs:planks"
+					type: "item"
+				}
+			]
+			title: "Planks"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "5281FD8A658D7FE4"
+			tasks: [{
+				id: "775983BC9171DCCB"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+	]
+	title: "Mushy"
+}

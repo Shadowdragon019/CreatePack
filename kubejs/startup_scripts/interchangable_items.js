@@ -4,7 +4,7 @@ global.woodConstruct = [`create:clipboard`, `storagedrawers:oak_full_drawers_1`,
 
 global.rail = [`rail`, `detector_rail`, `powered_rail`, `activator_rail`, `create:controller_rail`]
 
-global.mushyBrick = [`create_pack_tweaks:mushy_brick`, `create_pack_tweaks:mushy_mold`, `storagedrawers:drawer_key`, `storagedrawers:quantify_key`, `storagedrawers:shroud_key`, `create:shaft`, `petrolsparts:double_cardan_shaft`, `create:minecart_coupling`, `bucket`]
+global.mushyBrick = [`create_pack_tweaks:mushy_brick`, `create_pack_tweaks:mushy_mold`, `storagedrawers:drawer_key`, `storagedrawers:quantify_key`, `create:shaft`, `petrolsparts:double_cardan_shaft`, `create:minecart_coupling`, `bucket`]
 
 global.redstoneDevices = [`create:pulse_repeater`, `create:pulse_extender`, `create:powered_latch`, `create:powered_toggle_latch`]
 
